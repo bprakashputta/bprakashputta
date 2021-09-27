@@ -1,5 +1,4 @@
-### Hi there 👋, I am Putta Bhanu Prakash aka [bprakashputta]{!https://www.bprakashputta.com/}
-
+### Hi there 👋, I am Putta Bhanu Prakash aka [bprakashputta]
 <!--
 **bprakashputta/bprakashputta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

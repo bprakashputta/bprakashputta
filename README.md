@@ -1,4 +1,4 @@
-### Hi there 👋, I am Putta Bhanu Prakash aka [bprakashputta]
+### Hi there 👋, I am Putta Bhanu Prakash aka., bprakashputta. Thinking why I haven't added anything to the readme. I am working on my portfolio, and will also update the readme.
 <!--
 **bprakashputta/bprakashputta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

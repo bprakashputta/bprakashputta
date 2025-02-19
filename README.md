@@ -1,3 +1,6 @@
 ## 🚀 Live GitHub Profile Animation
 
-![GitHub Profile Animation](https://raw.githubusercontent.com/bprakashputta/bprakashputta/main/animation.svg)
+🔗 **Check out my live animated profile**:  
+👉 [View My Animated Profile](https://bprakashputta.github.io/bprakashputta/)
+
+<iframe src="https://bprakashputta.github.io/bprakashputta/" width="700" height="200" frameborder="0"></iframe>

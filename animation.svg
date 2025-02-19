@@ -60,7 +60,7 @@
         ];
 
         let index = 0, charIndex = 0, deleting = false;
-        let speed = 70, eraseSpeed = 40, delay = 1500;
+        let speed = 70, eraseSpeed = 40, delay = 3000;
 
         const typingText = document.getElementById("typing-text");
         const subText = document.getElementById("subtext");

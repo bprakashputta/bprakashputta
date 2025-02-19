@@ -1,0 +1,97 @@
+<svg fill="none" viewBox="0 0 700 300" width="700" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Lato:wght@400&display=swap');
+
+      body {
+        background-color: #ffffff;
+        color: #222222;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .container {
+        max-width: 700px;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        font-family: 'Lato', sans-serif;
+        color: #444;
+      }
+
+      .fade {
+        animation: fadeIn 1s ease-in-out forwards;
+      }
+
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+    </style>
+
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <div class="container">
+        <h1 id="typing-text"></h1>
+        <p id="subtext"></p>
+      </div>
+
+      <script>
+        const sections = [
+          { title: "Welcome!", subtitle: "Bhanu Prakash Putta | Quant Researcher & Engineer" },
+          { title: "Turning Data into Market Signals", subtitle: "Extracting Alpha | Market Insights | Trading Strategies" },
+          { title: "Engineering for Performance", subtitle: "Python | C++ | High-Performance Computing | Cloud Systems" },
+          { title: "Risk Meets Optimization", subtitle: "Portfolio Optimization | Monte Carlo | Factor Analysis" },
+          { title: "AI That Moves Markets", subtitle: "NLP | Predictive Analytics | Reinforcement Learning" },
+          { title: "From Research to Execution", subtitle: "Backtesting | Automation | Strategy Development" },
+          { title: "Let’s Connect", subtitle: "LinkedIn: linkedin.com/in/bprakashputta" }
+        ];
+
+        let index = 0, charIndex = 0, deleting = false;
+        let speed = 70, eraseSpeed = 40, delay = 1500;
+
+        const typingText = document.getElementById("typing-text");
+        const subText = document.getElementById("subtext");
+
+        function typeEffect() {
+            let { title, subtitle } = sections[index];
+
+            if (!deleting) {
+                typingText.textContent = title.substring(0, charIndex + 1);
+                subText.textContent = subtitle.substring(0, charIndex + 1);
+                charIndex++;
+
+                if (charIndex === title.length) {
+                    setTimeout(() => deleting = true, delay);
+                }
+            } else {
+                typingText.textContent = title.substring(0, charIndex - 1);
+                subText.textContent = subtitle.substring(0, charIndex - 1);
+                charIndex--;
+
+                if (charIndex === 0) {
+                    index = (index + 1) % sections.length;
+                    deleting = false;
+                }
+            }
+
+            setTimeout(typeEffect, deleting ? eraseSpeed : speed);
+        }
+
+        document.addEventListener("DOMContentLoaded", typeEffect);
+      </script>
+    </div>
+  </foreignObject>
+</svg>

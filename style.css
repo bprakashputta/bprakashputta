@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@400&display=swap');
+
+body {
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Soft gradient background */
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 700px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}

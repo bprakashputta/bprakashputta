@@ -1,0 +1,35 @@
+name: Update Word Cloud
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"  # Runs every 12 hours
+  push:
+    branches:
+      - main  # Runs when main branch is updated
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  generate-wordcloud:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: pip install wordcloud matplotlib requests
+
+      - name: Generate Word Cloud
+        run: python generate_wordcloud.py
+
+      - name: Commit and Push Word Cloud
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add wordcloud.png
+          git commit -m "Auto-update word cloud"
+          git push

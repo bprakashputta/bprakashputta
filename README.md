@@ -50,11 +50,8 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 
 
 ---
-
-## **🌎 Join My Community Word Cloud!**
-![](https://img.shields.io/badge/Words%20Added-500%2B-brightgreen?labelColor=7D898B)
-![](https://img.shields.io/badge/Word%20Clouds%20Created-10-48D6FF?labelColor=7D898B)
-![](https://img.shields.io/badge/Total%20Participants-400%2B-AC6EFF?labelColor=7D898B)
+## 🌎 Live Word Cloud!
+![Live Word Cloud](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/main/wordcloud.png)
 
 ---
 

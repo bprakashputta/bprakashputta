@@ -51,7 +51,7 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 
 ---
 ## 🌎 Live Word Cloud!
-![Live Word Cloud](https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/main/wordcloud.png)
+![Live Word Cloud](https://raw.githubusercontent.com/bprakashputta/bprakashputta/main/wordcloud.png)
 
 ---
 

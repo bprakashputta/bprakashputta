@@ -34,6 +34,7 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 ## **✍️ Latest Articles on Medium**
 [![Medium Badge](https://img.shields.io/badge/-View%20my%20articles-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@bprakashputta)](https://medium.com/@bprakashputta)
 - 📢 **How to Optimize Quantitative Trading Strategies Using AI**
+- 🚘 **Decoding the Sound of Vehicles: An Audio Classification Model for Vehicle Identification**
 - 🔍 **Data-Driven Insights for Financial Markets**
 - 🎯 **Building Robust Machine Learning Models for NLP**
 

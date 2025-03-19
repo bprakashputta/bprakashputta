@@ -15,7 +15,7 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 
 ### **🔹 AI & Machine Learning**
 - 🏆 **[Elastics AI: Cloud-Based AI Trading Platform](https://github.com/bprakashputta/Elastics-AI)** [Private Repo] - A scalable, modular framework for AI-driven crypto trading.
-- 🤖 **[NER Model for Legal Document Processing](https://github.com/bprakashputta/NER_Legal_Extraction)** - Extracting addresses, sales, and parcel numbers with spaCy.
+- 🤖 **[NER Model for Legal Document Processing](https://github.com/bprakashputta/NER-Document-Extractor)** - Extracting addresses, sales, and parcel numbers with spaCy.
 - 🎧 **[Audio Classification Model for Vehicle Identification](https://github.com/bprakashputta/Audio_Classification_Model_for_Vehicle_Identification)** - Machine learning model classifying vehicles based on sound waves.
 - 🧠 **[Predictive Modeling for Diabetes Risk Assessment](https://github.com/bprakashputta/Predictive_Modeling_for_Diabetes_Risk_Assessment)** - ML-based risk assessment tool for diabetes prediction.
 

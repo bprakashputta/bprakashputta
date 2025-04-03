@@ -20,9 +20,9 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 - 🧠 **[Predictive Modeling for Diabetes Risk Assessment](https://github.com/bprakashputta/Predictive_Modeling_for_Diabetes_Risk_Assessment)** - ML-based risk assessment tool for diabetes prediction.
 
 ### **📊 Quant Finance & Trading**
-- 📈 **[QuantifyRisk: Portfolio Analytics Framework](https://github.com/bprakashputta/QuantifyRisk)** - Advanced risk modeling and portfolio optimization tool.
-- 💹 **[Options Pricing and Volatility Modeling](https://github.com/bprakashputta/OptionsPricing)** - Black-Scholes, GARCH, and Monte Carlo simulations.
-- 📉 **[Backtesting Framework for Trading Strategies](https://github.com/bprakashputta/Backtest-Trading-Strategies)** - A flexible Python-based backtesting system.
+- 📈 **[QuantifyRisk: Portfolio Analytics Framework](https://github.com/bprakashputta/QuantifyRisk-Portfolio-Analytics-Framework)** - Advanced risk modeling and portfolio optimization tool.
+- 💹 **[Options Pricing and Volatility Modeling](https://github.com/bprakashputta/Options-Pricing-and-Volatility-Modeling)** - Black-Scholes, GARCH, and Monte Carlo simulations.
+- 📉 **[Backtesting Framework for Trading Strategies](https://github.com/bprakashputta/Backtesting-Framework-for-Trading-Strategies)** - A flexible Python-based backtesting system.
 
 ### **🌍 Web & Data Engineering**
 - 🛠 **[WikiDownloader](https://github.com/bprakashputta/WikiDownloader)** - A CLI tool to download Wikipedia articles efficiently.

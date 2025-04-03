@@ -14,43 +14,49 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 ## **🛠️ Featured Projects**
 
 ### **🔹 AI & Machine Learning**
-- 🏆 **[Elastics AI: Cloud-Based AI Trading Platform](https://github.com/bprakashputta/Elastics-AI)** [Private Repo] - A scalable, modular framework for AI-driven crypto trading.
-- 🤖 **[NER Model for Legal Document Processing](https://github.com/bprakashputta/NER-Document-Extractor)** - Extracting addresses, sales, and parcel numbers with spaCy.
-- 🎧 **[Audio Classification Model for Vehicle Identification](https://github.com/bprakashputta/Audio_Classification_Model_for_Vehicle_Identification)** - Machine learning model classifying vehicles based on sound waves.
-- 🧠 **[Predictive Modeling for Diabetes Risk Assessment](https://github.com/bprakashputta/Predictive_Modeling_for_Diabetes_Risk_Assessment)** - ML-based risk assessment tool for diabetes prediction.
+- 🧠 [**NER Model for Legal Document Processing**](https://github.com/bprakashputta/NER-Document-Extractor) – Extracting addresses, sales, and parcel numbers using spaCy and ML pipeline.
+- 🎧 [**Audio Classification Model for Vehicle Identification**](https://github.com/bprakashputta/Audio_Classification_Model_for_Vehicle_Identification) – Classify vehicles using Mel spectrograms and SVMs.
+- 📊 [**Predictive Modeling for Diabetes Risk Assessment**](https://github.com/bprakashputta/Predictive_Modeling_for_Diabetes_Risk_Assessment) – Diabetes risk classification using ML.
+- ❓ [**mission-quizzifY**](https://github.com/bprakashputta/mission-quizzifY) – AI-powered dynamic quiz generator using LangChain and OpenAI APIs.
+- 🧮 [**vgg16_keras_to_tensorflowjs**](https://github.com/bprakashputta/vgg16_keras_to_tensorflowjs) – Browser-based VGG16 inference using TensorFlow.js.
 
 ### **📊 Quant Finance & Trading**
-- 📈 **[QuantifyRisk: Portfolio Analytics Framework](https://github.com/bprakashputta/QuantifyRisk-Portfolio-Analytics-Framework)** - Advanced risk modeling and portfolio optimization tool.
-- 💹 **[Options Pricing and Volatility Modeling](https://github.com/bprakashputta/Options-Pricing-and-Volatility-Modeling)** - Black-Scholes, GARCH, and Monte Carlo simulations.
-- 📉 **[Backtesting Framework for Trading Strategies](https://github.com/bprakashputta/Backtesting-Framework-for-Trading-Strategies)** - A flexible Python-based backtesting system.
+- 📈 [**QuantifyRisk: Portfolio Analytics Framework**](https://github.com/bprakashputta/QuantifyRisk-Portfolio-Analytics-Framework) – Advanced portfolio metrics, visualization, and optimization.
+- 💹 [**Options Pricing and Volatility Modeling**](https://github.com/bprakashputta/Options-Pricing-and-Volatility-Modeling) – Pricing models, Greeks, GARCH, and volatility surfaces.
+- 🔍 [**Backtesting Framework for Trading Strategies**](https://github.com/bprakashputta/Backtesting-Framework-for-Trading-Strategies) – Flexible framework for historical strategy testing.
 
-### **🌍 Web & Data Engineering**
-- 🛠 **[WikiDownloader](https://github.com/bprakashputta/WikiDownloader)** - A CLI tool to download Wikipedia articles efficiently.
-- 🌐 **[Backend Web Application](https://github.com/bprakashputta/schedule_interview_backend_webapp)** - A backend system for scheduling interviews.
-- 📝 **[CSV Inspector CLI](https://github.com/bprakashputta/CSV-Inspector)** - A Python CLI for exploring CSV data.
+### **🌐 Backend & Engineering**
+- 🌐 [**intern-connect-backend**](https://github.com/bprakashputta/intern-connect-backend) – Node.js backend for a student internship matching platform.
+- 💰 [**MyMoney**](https://github.com/bprakashputta/MyMoney) – Full-stack personal expense and budgeting tracker.
+- 🎞 [**vidly**](https://github.com/bprakashputta/vidly) – RESTful API backend for a video rental app.
+- 🪙 [**BankingServiceApplication**](https://github.com/bprakashputta/BankingServiceApplication) – Java backend banking platform with account management.
+- 📈 [**Lead Scoring Case Study**](https://github.com/bprakashputta/Lead-Scoring-Case-Study) – Predictive model for marketing lead conversion.
+- 📊 [**EDA Credit Analysis**](https://github.com/bprakashputta/EDA_Credit_Analysis) – Exploratory data analysis of credit and loan data.
+
+### **🔬 APIs & Data Wrangling**
+- 🛰 [**NearEarthObjects**](https://github.com/bprakashputta/NearEarthObjects) – NASA API client to monitor near-earth space objects.
+- 📘 [**FacebookDataFetch**](https://github.com/bprakashputta/FacebookDataFetch) – Python automation for Facebook data extraction.
 
 ---
 
 ## **✍️ Latest Articles on Medium**
 [![Medium Badge](https://img.shields.io/badge/-View%20my%20articles-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@bprakashputta)](https://medium.com/@bprakashputta)
-- 📢 **How to Optimize Quantitative Trading Strategies Using AI**
 - 🚘 **Decoding the Sound of Vehicles: An Audio Classification Model for Vehicle Identification**
-- 🔍 **Data-Driven Insights for Financial Markets**
-- 🎯 **Building Robust Machine Learning Models for NLP**
+- 🎯 **Automating Address Extraction from Legal Documents with spaCy NER**
 
 ---
 
 ## **📚 Skills & Tech Stack**
-- **Languages:** Python, C/C++, Java, JavaScript
+- **Languages:** Python, C/C++, Java, JavaScript, R, Ruby
 - **AI & ML:** Numpy, Pandas, TensorFlow, PyTorch, spaCy, Scikit-learn
-- **Mathematics and Statistics:** Probability Distributions, Regression Analysis, Linear Algebra, PCA, Stochastic Processes.
+- **Mathematics and Statistics:** Probability Distributions, Regression Analysis, Linear Algebra, PCA, Stochastic Processes
 - **Quant Finance:** Algorithmic trading, risk modeling, backtesting
 - **Databases:** PostgreSQL, MySQL, MongoDB
-- **Cloud & Web frameworks:** AWS, Docker, FastAPI, Flask, NodeJs, ReactJs
-- **Other Skills:** Linux, Git, REST APIs, Backtesting, Portfolio Optimization, Calculus
-
+- **Cloud & Web frameworks:** AWS, Docker, FastAPI, Flask, NodeJs, ReactJs, Spring MVC
+- **Other Skills:** Linux, Git, Excel, Powerpoint, REST APIs, Backtesting, Portfolio Optimization, Calculus
 
 ---
+
 ## 🌎 Live Word Cloud!
 ![Live Word Cloud](https://raw.githubusercontent.com/bprakashputta/bprakashputta/main/wordcloud.png)
 
@@ -60,4 +66,3 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 📩 **[Email](mailto:bprakashputta@gmail.com)** | 🏡 **[Website](https://bprakashputta.github.io/)** | 🤝 **[LinkedIn](https://www.linkedin.com/in/bprakashputta/)**
 
 Thanks for visiting! Feel free to explore my projects and let's collaborate! 🚀
-

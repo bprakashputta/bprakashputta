@@ -20,11 +20,6 @@ Welcome to my profile! I'm a **quant developer, machine learning engineer, softw
 - ❓ [**mission-quizzifY**](https://github.com/bprakashputta/mission-quizzifY) – AI-powered dynamic quiz generator using LangChain and OpenAI APIs.
 - 🧮 [**vgg16_keras_to_tensorflowjs**](https://github.com/bprakashputta/vgg16_keras_to_tensorflowjs) – Browser-based VGG16 inference using TensorFlow.js.
 
-### **📊 Quant Finance & Trading**
-- 📈 [**QuantifyRisk: Portfolio Analytics Framework**](https://github.com/bprakashputta/QuantifyRisk-Portfolio-Analytics-Framework) – Advanced portfolio metrics, visualization, and optimization.
-- 💹 [**Options Pricing and Volatility Modeling**](https://github.com/bprakashputta/Options-Pricing-and-Volatility-Modeling) – Pricing models, Greeks, GARCH, and volatility surfaces.
-- 🔍 [**Backtesting Framework for Trading Strategies**](https://github.com/bprakashputta/Backtesting-Framework-for-Trading-Strategies) – Flexible framework for historical strategy testing.
-
 ### **🌐 Backend & Engineering**
 - 🌐 [**intern-connect-backend**](https://github.com/bprakashputta/intern-connect-backend) – Node.js backend for a student internship matching platform.
 - 💰 [**MyMoney**](https://github.com/bprakashputta/MyMoney) – Full-stack personal expense and budgeting tracker.

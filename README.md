@@ -4,6 +4,7 @@
 
 Lead AI Engineer at **[Effulgent](https://www.effulgenttech.com)** (member of the OpenAI, Anthropic and Google Cloud partner programs). M.S. in Applied Data Science, Clarkson University. 6+ years of Python and software engineering.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-1f5f4a?style=flat&logo=githubpages&logoColor=white)](https://bprakashputta.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bprakashputta/)
 [![Upwork](https://img.shields.io/badge/Upwork-14A800?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01ba1048297cfaf8b2)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@bprakashputta)
@@ -20,7 +21,7 @@ Lead AI Engineer at **[Effulgent](https://www.effulgenttech.com)** (member of th
 
 ## Featured work
 
-### [Placewise](https://github.com/bprakashputta/placewise): AI recruiting layer · [live demo](https://placewise.bprakashputta.workers.dev)
+### [Placewise](https://github.com/bprakashputta/placewise): AI recruiting layer · [case study](https://bprakashputta.github.io/work/placewise.html) · [live demo](https://placewise.bprakashputta.workers.dev)
 Turns résumés and job notes into evidence-backed shortlists for an A/E/C staffing workflow, on top of an existing ATS.
 
 - LangGraph ingest per résumé: dedupe → parse and screen → Claude structured extraction → code validation → Voyage embeddings, with a Postgres job queue and workers
@@ -31,12 +32,13 @@ Turns résumés and job notes into evidence-backed shortlists for an A/E/C staff
 
 `Python` `LangGraph` `LangChain` `Claude` `Voyage AI` `pgvector` `FastAPI` `Next.js` `n8n` `Docker` `GCP`
 
-### [predmarket-mcp](https://github.com/bprakashputta/predmarket-mcp): live market data for AI agents
+### [predmarket-mcp](https://github.com/bprakashputta/predmarket-mcp): live market data for AI agents · [case study](https://bprakashputta.github.io/work/predmarket-mcp.html)
 An MCP server that lets Claude or any MCP client search, quote and compare **Kalshi and Polymarket** markets: order books, recent trades, price history, and cross-venue pairs ranked by price gap.
 
 - 6 read-only tools on one venue-neutral data model (every price is a YES probability; NO-side quotes and fills converted)
 - Built for agent traffic: per-venue rate limiting, retries that honor `Retry-After`, a de-duplicating TTL cache, inverted-index search
-- Tested with mocked HTTP and run end-to-end over the MCP protocol; CI on Python 3.12 and 3.13
+- Cross-venue matching that rejects look-alikes (different thresholds, above vs touch, cut vs hike, negation), with regression tests from real title pairs
+- 0.3 s search, zero rate-limit errors; tested end-to-end over the MCP protocol; CI on Python 3.12 and 3.13
 
 `Python` `MCP` `httpx` `asyncio` `pydantic`
 
@@ -70,4 +72,4 @@ The code for this work belongs to the companies, so it isn't public. Happy to wa
 
 ---
 
-**Have an AI project in mind?** Message me on [LinkedIn](https://www.linkedin.com/in/bprakashputta/) or [Upwork](https://www.upwork.com/freelancers/~01ba1048297cfaf8b2) with what you're trying to build, and I'll suggest the simplest approach that works.
+**Have an AI project in mind?** See case studies at **[bprakashputta.github.io](https://bprakashputta.github.io)**, or message me on [LinkedIn](https://www.linkedin.com/in/bprakashputta/) or [Upwork](https://www.upwork.com/freelancers/~01ba1048297cfaf8b2) with what you're trying to build, and I'll suggest the simplest approach that works.

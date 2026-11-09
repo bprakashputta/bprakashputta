@@ -1,63 +1,64 @@
-# **Hi, I'm Bhanu Prakash Putta 👋**
+# Hi, I'm Bhanu Prakash Putta
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bprakashputta/)](https://www.linkedin.com/in/bprakashputta/)
-[![GitHub Badge](https://img.shields.io/badge/-GitHub-24292e?style=flat&logo=Github&logoColor=white&link=https://github.com/bprakashputta)](https://github.com/bprakashputta)
-[![Medium Badge](https://img.shields.io/badge/-Medium-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@bprakashputta)](https://medium.com/@bprakashputta)
-[![LeetCode Badge](https://img.shields.io/badge/-LeetCode-orange?style=flat&logo=LeetCode&logoColor=white&link=https://leetcode.com/bprakashputta)](https://leetcode.com/bprakashputta)
+**AI Engineer.** I build LLM applications, AI agents and RAG systems that hold up on real, messy data, and I measure them so you know they work.
 
-🚀 **AI | Quant Finance | Software Development | Machine Learning | NLP | Cloud Computing**
+Lead AI Engineer at **[Effulgent](https://www.effulgenttech.com)** (member of the OpenAI, Anthropic and Google Cloud partner programs). M.S. in Applied Data Science, Clarkson University. 6+ years of Python and software engineering.
 
-Welcome to my profile! I'm a **quant developer, machine learning engineer, software developer, data scientist and AI enthusiast** passionate about building intelligent systems for real-world applications. I have experience in **quantitative finance, NLP, algorithmic trading, and AI-driven platforms**. Currently, I'm developing **Elastics AI**, a cloud-ready quantitative trading framework. 
-
----
-
-## **🛠️ Featured Projects**
-
-### **🔹 AI & Machine Learning**
-- 🧠 [**NER Model for Legal Document Processing**](https://github.com/bprakashputta/NER-Document-Extractor) – Extracting addresses, sales, and parcel numbers using spaCy and ML pipeline.
-- 🎧 [**Audio Classification Model for Vehicle Identification**](https://github.com/bprakashputta/Audio_Classification_Model_for_Vehicle_Identification) – Classify vehicles using Mel spectrograms and SVMs.
-- 📊 [**Predictive Modeling for Diabetes Risk Assessment**](https://github.com/bprakashputta/Predictive_Modeling_for_Diabetes_Risk_Assessment) – Diabetes risk classification using ML.
-- ❓ [**mission-quizzifY**](https://github.com/bprakashputta/mission-quizzifY) – AI-powered dynamic quiz generator using LangChain and OpenAI APIs.
-- 🧮 [**vgg16_keras_to_tensorflowjs**](https://github.com/bprakashputta/vgg16_keras_to_tensorflowjs) – Browser-based VGG16 inference using TensorFlow.js.
-
-### **🌐 Backend & Engineering**
-- 🌐 [**intern-connect-backend**](https://github.com/bprakashputta/intern-connect-backend) – Node.js backend for a student internship matching platform.
-- 💰 [**MyMoney**](https://github.com/bprakashputta/MyMoney) – Full-stack personal expense and budgeting tracker.
-- 🎞 [**vidly**](https://github.com/bprakashputta/vidly) – RESTful API backend for a video rental app.
-- 🪙 [**BankingServiceApplication**](https://github.com/bprakashputta/BankingServiceApplication) – Java backend banking platform with account management.
-- 📈 [**Lead Scoring Case Study**](https://github.com/bprakashputta/Lead-Scoring-Case-Study) – Predictive model for marketing lead conversion.
-- 📊 [**EDA Credit Analysis**](https://github.com/bprakashputta/EDA_Credit_Analysis) – Exploratory data analysis of credit and loan data.
-
-### **🔬 APIs & Data Wrangling**
-- 🛰 [**NearEarthObjects**](https://github.com/bprakashputta/NearEarthObjects) – NASA API client to monitor near-earth space objects.
-- 📘 [**FacebookDataFetch**](https://github.com/bprakashputta/FacebookDataFetch) – Python automation for Facebook data extraction.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bprakashputta/)
+[![Upwork](https://img.shields.io/badge/Upwork-14A800?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/~01ba1048297cfaf8b2)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white)](https://medium.com/@bprakashputta)
 
 ---
 
-## **✍️ Latest Articles on Medium**
-[![Medium Badge](https://img.shields.io/badge/-View%20my%20articles-000000?style=flat&labelColor=000000&logo=Medium&link=https://medium.com/@bprakashputta)](https://medium.com/@bprakashputta)
-- 🚘 **Decoding the Sound of Vehicles: An Audio Classification Model for Vehicle Identification**
-- 🎯 **Automating Address Extraction from Legal Documents with spaCy NER**
+## What I build
+
+- **AI agents and agentic workflows**: LangGraph, tool/function calling, MCP servers, human-in-the-loop approvals
+- **RAG and document intelligence**: hybrid search (vectors + full text), reranking, answers that cite their sources
+- **LLM integrations**: Claude, OpenAI and Vertex AI with structured outputs, guardrails and cost controls
+- **Evaluation**: test sets, LLM-as-judge, regression checks, so changes are measured instead of guessed
+- **Production plumbing**: FastAPI, Postgres/pgvector, job queues, Docker, CI/CD with rollback, monitoring
+
+## Featured work
+
+### [Placewise](https://github.com/bprakashputta/placewise): AI recruiting layer · [live demo](https://placewise.bprakashputta.workers.dev)
+Turns résumés and job notes into evidence-backed shortlists for an A/E/C staffing workflow, on top of an existing ATS.
+
+- LangGraph ingest per résumé: dedupe → parse and screen → Claude structured extraction → code validation → Voyage embeddings, with a Postgres job queue and workers
+- Hard filters + hybrid retrieval (pgvector + Postgres full text) + rerank: **recall@10 48% → 89% at 98% precision@10**
+- Evidence-backed match scoring, where every claim is checked against a quoted résumé line: **97.6% submit precision**, about **$0.02 per résumé**
+- Evaluated on a 597-résumé test set, including scanned, corrupt, duplicate and prompt-injection files
+- Deployed on Google Cloud with Docker, GitHub Actions auto-deploy and rollback, LLM spend caps and LangSmith tracing
+
+`Python` `LangGraph` `LangChain` `Claude` `Voyage AI` `pgvector` `FastAPI` `Next.js` `n8n` `Docker` `GCP`
+
+### [NER Document Extractor](https://github.com/bprakashputta/NER-Document-Extractor): legal document data extraction
+PDF → text → custom spaCy NER that extracts sales, address and tax-parcel data from legal documents (**92% accuracy on 500+ documents**), with per-entity precision/recall/F1 evaluation. Built during my graduate research at Clarkson.
+
+`Python` `spaCy` `pdfminer` `NLP`
+
+### [IMC Prosperity 2025](https://github.com/bprakashputta/order-of-the-trade-imcprosperity2025): algorithmic trading competition
+Entry in IMC's global trading competition: order-book strategies for three products (fair-value market making, a price-forecast strategy and position-capped sizing), using only numpy/pandas per the competition rules.
+
+`Python` `numpy` `pandas`
+
+## Experience highlights
+
+The code for this work belongs to the companies, so it isn't public. Happy to walk through the design.
+
+- **Real-time data platform:** unified Polymarket and Kalshi feeds into one ML-ready stream at **40M+ messages/hour** (Kafka, WebSockets, Protobuf), with MCP servers giving AI agents live market data as tools
+- **LLM-as-judge evaluation:** a GPT-4 judging framework across 5+ question types that raised agreement with human reviewers from **60% to 90%**
+- **Autonomous trading agent:** real-time data → ML models → execution in under 1 second, with risk limits and a kill switch in deterministic code
+
+## Tech stack
+
+| Area | Tools |
+|---|---|
+| LLMs and agents | Claude API, OpenAI API, Vertex AI, LangGraph, LangChain, LlamaIndex, MCP, LangSmith |
+| Retrieval | pgvector, Pinecone, Voyage AI embeddings and rerank, hybrid search, rank fusion |
+| ML | PyTorch, TensorFlow, scikit-learn, XGBoost, spaCy |
+| Backend and data | Python, FastAPI, PostgreSQL, TimescaleDB, Kafka, WebSockets, n8n |
+| Infra | Docker, GitHub Actions, GCP, AWS, Azure, Terraform |
 
 ---
 
-## **📚 Skills & Tech Stack**
-- **Languages:** Python, C/C++, Java, JavaScript, R, Ruby
-- **AI & ML:** Numpy, Pandas, TensorFlow, PyTorch, spaCy, Scikit-learn
-- **Mathematics and Statistics:** Probability Distributions, Regression Analysis, Linear Algebra, PCA, Stochastic Processes
-- **Quant Finance:** Algorithmic trading, risk modeling, backtesting
-- **Databases:** PostgreSQL, MySQL, MongoDB
-- **Cloud & Web frameworks:** AWS, Docker, FastAPI, Flask, NodeJs, ReactJs, Spring MVC
-- **Other Skills:** Linux, Git, Excel, Powerpoint, REST APIs, Backtesting, Portfolio Optimization, Calculus
-
----
-
-## 🌎 Live Word Cloud!
-![Live Word Cloud](https://raw.githubusercontent.com/bprakashputta/bprakashputta/main/wordcloud.png)
-
----
-
-## **💬 Want to Connect?**
-📩 **[Email](mailto:bprakashputta@gmail.com)** | 🏡 **[Website](https://bprakashputta.github.io/)** | 🤝 **[LinkedIn](https://www.linkedin.com/in/bprakashputta/)**
-
-Thanks for visiting! Feel free to explore my projects and let's collaborate! 🚀
+**Have an AI project in mind?** Message me on [LinkedIn](https://www.linkedin.com/in/bprakashputta/) or [Upwork](https://www.upwork.com/freelancers/~01ba1048297cfaf8b2) with what you're trying to build, and I'll suggest the simplest approach that works.

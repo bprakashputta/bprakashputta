@@ -38,9 +38,19 @@ An MCP server that lets Claude or any MCP client search, quote and compare **Kal
 - 6 read-only tools on one venue-neutral data model (every price is a YES probability; NO-side quotes and fills converted)
 - Built for agent traffic: per-venue rate limiting, retries that honor `Retry-After`, a de-duplicating TTL cache, inverted-index search
 - Cross-venue matching that rejects look-alikes (different thresholds, above vs touch, cut vs hike, negation), with regression tests from real title pairs
-- 0.3 s search, zero rate-limit errors; tested end-to-end over the MCP protocol; CI on Python 3.12 and 3.13
+- 12 regression-tested look-alike rules; 0.3 s search, zero rate-limit errors; a [live cross-venue board](https://bprakashputta.github.io/predmarket-mcp/) rebuilt every 6 hours
 
 `Python` `MCP` `httpx` `asyncio` `pydantic`
+
+### More production-grade AI systems
+Each one is a public repo with Docker, CI, design decisions and an evaluation on a public benchmark, with every number from a real run.
+
+| Project | What it does | Measured on |
+|---|---|---|
+| [contract-review-ai](https://github.com/bprakashputta/contract-review-ai) · [case study](https://bprakashputta.github.io/work/contract-review-ai.html) | Extracts 12 key clauses with quotes verified against the document by code, playbook risk flags, cited Q&A | CUAD, 102 held-out contracts: **micro-F1 0.821 → 0.893**, 44% fewer tokens, $0.0015/contract |
+| [sql-analyst-agent](https://github.com/bprakashputta/sql-analyst-agent) · [case study](https://bprakashputta.github.io/work/sql-analyst-agent.html) | LangGraph text-to-SQL agent: read-only by construction, self-correcting, charts and explains results | BIRD mini-dev: **62.7% → 71.8%** execution accuracy (Haiku, N=400), **87%** with Sonnet; 0 writes from 25 hostile prompts |
+| [support-desk-agent](https://github.com/bprakashputta/support-desk-agent) · [case study](https://bprakashputta.github.io/work/support-desk-agent.html) | Support agent that changes real orders: policy enforced in code, human approval for big refunds, exactly-once writes | τ-bench retail, all 115 test tasks: policy-violating writes **6.1% → 0%** at **73.9%** task success; red team 16/16 |
+| [assaygate](https://github.com/bprakashputta/assaygate) · [case study](https://bprakashputta.github.io/work/assaygate.html) | CI gate for LLM apps: blocks PRs when quality, cost or latency regresses, using paired CIs; calibrates LLM judges against humans | Caught a **−6.0 pt** regression (p = 0.005) hidden in a prompt that halved cost; MT-Bench human judgments, N=400 |
 
 ### [NER Document Extractor](https://github.com/bprakashputta/NER-Document-Extractor): legal document data extraction
 PDF → text → custom spaCy NER that extracts sales, address and tax-parcel data from legal documents (**92% accuracy on 500+ documents**), with per-entity precision/recall/F1 evaluation. Built during my graduate research at Clarkson.

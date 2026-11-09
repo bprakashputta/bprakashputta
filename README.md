@@ -31,6 +31,15 @@ Turns résumés and job notes into evidence-backed shortlists for an A/E/C staff
 
 `Python` `LangGraph` `LangChain` `Claude` `Voyage AI` `pgvector` `FastAPI` `Next.js` `n8n` `Docker` `GCP`
 
+### [predmarket-mcp](https://github.com/bprakashputta/predmarket-mcp): live market data for AI agents
+An MCP server that lets Claude or any MCP client search, quote and compare **Kalshi and Polymarket** markets: order books, recent trades, price history, and cross-venue pairs ranked by price gap.
+
+- 6 read-only tools on one venue-neutral data model (every price is a YES probability; NO-side quotes and fills converted)
+- Built for agent traffic: per-venue rate limiting, retries that honor `Retry-After`, a de-duplicating TTL cache, inverted-index search
+- Tested with mocked HTTP and run end-to-end over the MCP protocol; CI on Python 3.12 and 3.13
+
+`Python` `MCP` `httpx` `asyncio` `pydantic`
+
 ### [NER Document Extractor](https://github.com/bprakashputta/NER-Document-Extractor): legal document data extraction
 PDF → text → custom spaCy NER that extracts sales, address and tax-parcel data from legal documents (**92% accuracy on 500+ documents**), with per-entity precision/recall/F1 evaluation. Built during my graduate research at Clarkson.
 
